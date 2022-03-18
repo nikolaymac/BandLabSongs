@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		959CF29427E4604600B539F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959CF29327E4604600B539F3 /* AppDelegate.swift */; };
+		959CF29627E4604600B539F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959CF29527E4604600B539F3 /* SceneDelegate.swift */; };
+		959CF29827E4604600B539F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959CF29727E4604600B539F3 /* ViewController.swift */; };
+		959CF29B27E4604600B539F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959CF29927E4604600B539F3 /* Main.storyboard */; };
+		959CF29D27E4604700B539F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959CF29C27E4604700B539F3 /* Assets.xcassets */; };
+		959CF2A027E4604700B539F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 959CF29E27E4604700B539F3 /* LaunchScreen.storyboard */; };
+		959CF2AB27E4604800B539F3 /* BandLabSongsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959CF2AA27E4604800B539F3 /* BandLabSongsTests.swift */; };
+		959CF2B527E4604800B539F3 /* BandLabSongsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959CF2B427E4604800B539F3 /* BandLabSongsUITests.swift */; };
+		959CF2B727E4604800B539F3 /* BandLabSongsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959CF2B627E4604800B539F3 /* BandLabSongsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		959CF2A727E4604800B539F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 959CF28827E4604600B539F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 959CF28F27E4604600B539F3;
+			remoteInfo = BandLabSongs;
+		};
+		959CF2B127E4604800B539F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 959CF28827E4604600B539F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 959CF28F27E4604600B539F3;
+			remoteInfo = BandLabSongs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		959CF29027E4604600B539F3 /* BandLabSongs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BandLabSongs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		959CF29327E4604600B539F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		959CF29527E4604600B539F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		959CF29727E4604600B539F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		959CF29A27E4604600B539F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		959CF29C27E4604700B539F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		959CF29F27E4604700B539F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		959CF2A127E4604700B539F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959CF2A627E4604800B539F3 /* BandLabSongsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandLabSongsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		959CF2AA27E4604800B539F3 /* BandLabSongsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandLabSongsTests.swift; sourceTree = "<group>"; };
+		959CF2B027E4604800B539F3 /* BandLabSongsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BandLabSongsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		959CF2B427E4604800B539F3 /* BandLabSongsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandLabSongsUITests.swift; sourceTree = "<group>"; };
+		959CF2B627E4604800B539F3 /* BandLabSongsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandLabSongsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		959CF28D27E4604600B539F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959CF2A327E4604800B539F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959CF2AD27E4604800B539F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		959CF28727E4604600B539F3 = {
+			isa = PBXGroup;
+			children = (
+				959CF29227E4604600B539F3 /* BandLabSongs */,
+				959CF2A927E4604800B539F3 /* BandLabSongsTests */,
+				959CF2B327E4604800B539F3 /* BandLabSongsUITests */,
+				959CF29127E4604600B539F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		959CF29127E4604600B539F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				959CF29027E4604600B539F3 /* BandLabSongs.app */,
+				959CF2A627E4604800B539F3 /* BandLabSongsTests.xctest */,
+				959CF2B027E4604800B539F3 /* BandLabSongsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		959CF29227E4604600B539F3 /* BandLabSongs */ = {
+			isa = PBXGroup;
+			children = (
+				959CF29327E4604600B539F3 /* AppDelegate.swift */,
+				959CF29527E4604600B539F3 /* SceneDelegate.swift */,
+				959CF29727E4604600B539F3 /* ViewController.swift */,
+				959CF29927E4604600B539F3 /* Main.storyboard */,
+				959CF29C27E4604700B539F3 /* Assets.xcassets */,
+				959CF29E27E4604700B539F3 /* LaunchScreen.storyboard */,
+				959CF2A127E4604700B539F3 /* Info.plist */,
+			);
+			path = BandLabSongs;
+			sourceTree = "<group>";
+		};
+		959CF2A927E4604800B539F3 /* BandLabSongsTests */ = {
+			isa = PBXGroup;
+			children = (
+				959CF2AA27E4604800B539F3 /* BandLabSongsTests.swift */,
+			);
+			path = BandLabSongsTests;
+			sourceTree = "<group>";
+		};
+		959CF2B327E4604800B539F3 /* BandLabSongsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				959CF2B427E4604800B539F3 /* BandLabSongsUITests.swift */,
+				959CF2B627E4604800B539F3 /* BandLabSongsUITestsLaunchTests.swift */,
+			);
+			path = BandLabSongsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		959CF28F27E4604600B539F3 /* BandLabSongs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959CF2BA27E4604800B539F3 /* Build configuration list for PBXNativeTarget "BandLabSongs" */;
+			buildPhases = (
+				959CF28C27E4604600B539F3 /* Sources */,
+				959CF28D27E4604600B539F3 /* Frameworks */,
+				959CF28E27E4604600B539F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BandLabSongs;
+			productName = BandLabSongs;
+			productReference = 959CF29027E4604600B539F3 /* BandLabSongs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		959CF2A527E4604800B539F3 /* BandLabSongsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959CF2BD27E4604800B539F3 /* Build configuration list for PBXNativeTarget "BandLabSongsTests" */;
+			buildPhases = (
+				959CF2A227E4604800B539F3 /* Sources */,
+				959CF2A327E4604800B539F3 /* Frameworks */,
+				959CF2A427E4604800B539F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				959CF2A827E4604800B539F3 /* PBXTargetDependency */,
+			);
+			name = BandLabSongsTests;
+			productName = BandLabSongsTests;
+			productReference = 959CF2A627E4604800B539F3 /* BandLabSongsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		959CF2AF27E4604800B539F3 /* BandLabSongsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959CF2C027E4604800B539F3 /* Build configuration list for PBXNativeTarget "BandLabSongsUITests" */;
+			buildPhases = (
+				959CF2AC27E4604800B539F3 /* Sources */,
+				959CF2AD27E4604800B539F3 /* Frameworks */,
+				959CF2AE27E4604800B539F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				959CF2B227E4604800B539F3 /* PBXTargetDependency */,
+			);
+			name = BandLabSongsUITests;
+			productName = BandLabSongsUITests;
+			productReference = 959CF2B027E4604800B539F3 /* BandLabSongsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		959CF28827E4604600B539F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					959CF28F27E4604600B539F3 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					959CF2A527E4604800B539F3 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 959CF28F27E4604600B539F3;
+					};
+					959CF2AF27E4604800B539F3 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 959CF28F27E4604600B539F3;
+					};
+				};
+			};
+			buildConfigurationList = 959CF28B27E4604600B539F3 /* Build configuration list for PBXProject "BandLabSongs" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 959CF28727E4604600B539F3;
+			productRefGroup = 959CF29127E4604600B539F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				959CF28F27E4604600B539F3 /* BandLabSongs */,
+				959CF2A527E4604800B539F3 /* BandLabSongsTests */,
+				959CF2AF27E4604800B539F3 /* BandLabSongsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		959CF28E27E4604600B539F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959CF2A027E4604700B539F3 /* LaunchScreen.storyboard in Resources */,
+				959CF29D27E4604700B539F3 /* Assets.xcassets in Resources */,
+				959CF29B27E4604600B539F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959CF2A427E4604800B539F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959CF2AE27E4604800B539F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		959CF28C27E4604600B539F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959CF29827E4604600B539F3 /* ViewController.swift in Sources */,
+				959CF29427E4604600B539F3 /* AppDelegate.swift in Sources */,
+				959CF29627E4604600B539F3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959CF2A227E4604800B539F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959CF2AB27E4604800B539F3 /* BandLabSongsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959CF2AC27E4604800B539F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959CF2B727E4604800B539F3 /* BandLabSongsUITestsLaunchTests.swift in Sources */,
+				959CF2B527E4604800B539F3 /* BandLabSongsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		959CF2A827E4604800B539F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 959CF28F27E4604600B539F3 /* BandLabSongs */;
+			targetProxy = 959CF2A727E4604800B539F3 /* PBXContainerItemProxy */;
+		};
+		959CF2B227E4604800B539F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 959CF28F27E4604600B539F3 /* BandLabSongs */;
+			targetProxy = 959CF2B127E4604800B539F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		959CF29927E4604600B539F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				959CF29A27E4604600B539F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		959CF29E27E4604700B539F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				959CF29F27E4604700B539F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		959CF2B827E4604800B539F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		959CF2B927E4604800B539F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		959CF2BB27E4604800B539F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BandLabSongs/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BandLabSongs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		959CF2BC27E4604800B539F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BandLabSongs/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BandLabSongs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		959CF2BE27E4604800B539F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BandLabSongsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BandLabSongs.app/BandLabSongs";
+			};
+			name = Debug;
+		};
+		959CF2BF27E4604800B539F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BandLabSongsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BandLabSongs.app/BandLabSongs";
+			};
+			name = Release;
+		};
+		959CF2C127E4604800B539F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BandLabSongsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BandLabSongs;
+			};
+			name = Debug;
+		};
+		959CF2C227E4604800B539F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.BandLabSongsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BandLabSongs;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		959CF28B27E4604600B539F3 /* Build configuration list for PBXProject "BandLabSongs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959CF2B827E4604800B539F3 /* Debug */,
+				959CF2B927E4604800B539F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		959CF2BA27E4604800B539F3 /* Build configuration list for PBXNativeTarget "BandLabSongs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959CF2BB27E4604800B539F3 /* Debug */,
+				959CF2BC27E4604800B539F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		959CF2BD27E4604800B539F3 /* Build configuration list for PBXNativeTarget "BandLabSongsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959CF2BE27E4604800B539F3 /* Debug */,
+				959CF2BF27E4604800B539F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		959CF2C027E4604800B539F3 /* Build configuration list for PBXNativeTarget "BandLabSongsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959CF2C127E4604800B539F3 /* Debug */,
+				959CF2C227E4604800B539F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 959CF28827E4604600B539F3 /* Project object */;
+}

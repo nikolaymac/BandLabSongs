@@ -81,6 +81,7 @@ final class MediaLoader: NSObject, LoaderProtocol  {
     }
     fileprivate func errorDownload(item: MediaItem, textError: String) {
         item.changeState(.needToDownload)
+        updateProgress?(item)
         self.showAlert?("Error Download", textError, nil)
     }
 
